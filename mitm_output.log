@@ -1,0 +1,1340 @@
+[16:04:03.146] Loading script autodrop.py
+[16:04:03.147] HTTP(S) proxy listening at *:8080.
+[16:04:05.319][127.0.0.1:40846] client connect
+[16:04:05.351][127.0.0.1:40852] client connect
+[16:04:05.356][127.0.0.1:40846] server connect clients2.google.com:80 (74.125.130.100:80)
+[16:04:05.384][127.0.0.1:40852] server connect accounts.google.com:443 (172.217.194.84:443)
+[16:04:05.480][127.0.0.1:40860] client connect
+[16:04:05.481][127.0.0.1:40868] client connect
+127.0.0.1:40846: GET http://clients2.google.com/time/1/current?cup2key=10:lT…
+              << 200 OK 106b
+[16:04:05.498][127.0.0.1:40878] client connect
+[16:04:05.501][127.0.0.1:40878] client disconnect
+[16:04:05.501][127.0.0.1:40884] client connect
+[16:04:05.502][127.0.0.1:40892] client connect
+[16:04:05.502][127.0.0.1:40900] client connect
+[16:04:05.502][127.0.0.1:40878] error establishing server connection: client disconnected
+127.0.0.1:40878: CONNECT wayground.com:443
+              << 502 Bad Gateway 192b
+[16:04:05.503][127.0.0.1:40860] client disconnect
+[16:04:05.504][127.0.0.1:40860] error establishing server connection: client disconnected
+127.0.0.1:40860: CONNECT www.google.com:443
+              << 502 Bad Gateway 193b
+[16:04:05.506][127.0.0.1:40846] client disconnect
+[16:04:05.506][127.0.0.1:40868] client disconnect
+[16:04:05.507][127.0.0.1:40846] server disconnect clients2.google.com:80 (74.125.130.100:80)
+[16:04:05.507][127.0.0.1:40868] error establishing server connection: client disconnected
+127.0.0.1:40868: CONNECT www.google.com:443
+              << 502 Bad Gateway 193b
+[16:04:05.535][127.0.0.1:40884] server connect wayground.com:443 (65.8.76.123:443)
+[16:04:05.536][127.0.0.1:40892] server connect www.google.com:443 (142.251.153.119:443)
+[16:04:05.536][127.0.0.1:40900] server connect www.google.com:443 (142.251.153.119:443)
+127.0.0.1:40852: POST https://accounts.google.com/ListAccounts?gpsia=1&source… HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[16:04:05.580][127.0.0.1:40852] client disconnect
+[16:04:05.581][127.0.0.1:40852] server disconnect accounts.google.com:443 (172.217.194.84:443)
+127.0.0.1:40892: GET https://www.google.com/async/folae?async=_fmt:pb&udm=50… HTTP/2.0
+     << HTTP/2.0 200 OK 217b
+127.0.0.1:40900: GET https://www.google.com/async/folae?async=_fmt:pb&udm=50… HTTP/2.0
+     << HTTP/2.0 200 OK 217b
+127.0.0.1:40884: GET https://wayground.com/ HTTP/2.0
+     << HTTP/2.0 200 OK 46.6k
+[16:04:06.552][127.0.0.1:40906] client connect
+[16:04:06.553][127.0.0.1:40912] client connect
+[16:04:06.554][127.0.0.1:40916] client connect
+[16:04:06.554][127.0.0.1:40928] client connect
+[16:04:06.554][127.0.0.1:40930] client connect
+[16:04:06.554][127.0.0.1:40932] client connect
+[16:04:06.556][127.0.0.1:40940] client connect
+[16:04:06.556][127.0.0.1:40956] client connect
+[16:04:06.556][127.0.0.1:40966] client connect
+[16:04:06.557][127.0.0.1:40972] client connect
+[16:04:06.557][127.0.0.1:40984] client connect
+[16:04:06.557][127.0.0.1:40998] client connect
+[16:04:06.557][127.0.0.1:41008] client connect
+[16:04:06.562][127.0.0.1:41024] client connect
+[16:04:06.563][127.0.0.1:41038] client connect
+[16:04:06.594][127.0.0.1:40906] server connect cdn.intellimize.co:443 (151.101.2.132:443)
+[16:04:06.596][127.0.0.1:40916] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:06.597][127.0.0.1:40912] server connect cf.quizizz.com:443 (13.35.202.26:443)
+[16:04:06.598][127.0.0.1:40928] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:06.598][127.0.0.1:40932] server connect d3e54v103j8qbb.cloudfront.net:443 (99.86.23.37:443)
+[16:04:06.600][127.0.0.1:40930] server connect kit.fontawesome.com:443 (104.18.40.68:443)
+[16:04:06.601][127.0.0.1:40940] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.602][127.0.0.1:40972] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.602][127.0.0.1:40956] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.602][127.0.0.1:41024] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:06.604][127.0.0.1:40966] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.605][127.0.0.1:41008] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:06.605][127.0.0.1:40984] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.605][127.0.0.1:40998] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+127.0.0.1:40884: GET https://wayground.com/wf/style_1779184881726.css HTTP/2.0
+     << HTTP/2.0 200 OK 62.8k
+127.0.0.1:40884: GET https://wayground.com/wf/script_1779184881726.js HTTP/2.0
+     << HTTP/2.0 200 OK 109k
+[16:04:06.676][127.0.0.1:41008] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.jsdelivr.net, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.676][127.0.0.1:41024] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.jsdelivr.net, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.687][127.0.0.1:40956] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.prod.website-files.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.687][127.0.0.1:40966] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.prod.website-files.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.687][127.0.0.1:40972] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.prod.website-files.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.688][127.0.0.1:40984] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.prod.website-files.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.688][127.0.0.1:40998] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cdn.prod.website-files.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.691][127.0.0.1:41008] client disconnect
+[16:04:06.691][127.0.0.1:41024] client disconnect
+[16:04:06.695][127.0.0.1:41008] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:06.695][127.0.0.1:41024] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:06.697][127.0.0.1:40956] client disconnect
+[16:04:06.697][127.0.0.1:40966] client disconnect
+[16:04:06.697][127.0.0.1:40972] client disconnect
+[16:04:06.698][127.0.0.1:40984] client disconnect
+[16:04:06.698][127.0.0.1:40998] client disconnect
+[16:04:06.698][127.0.0.1:40998] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.699][127.0.0.1:40956] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.699][127.0.0.1:40966] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.699][127.0.0.1:40972] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:06.699][127.0.0.1:40984] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/att… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:40912: GET https://cf.quizizz.com/webflow-custom-code/js/analytics… HTTP/2.0
+     << HTTP/2.0 200 OK 579b
+[16:04:06.724][127.0.0.1:41044] client connect
+127.0.0.1:40928: GET https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.mi… HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+[16:04:06.734][127.0.0.1:41056] client connect
+[16:04:06.734][127.0.0.1:41072] client connect
+[16:04:06.735][127.0.0.1:41076] client connect
+127.0.0.1:40932: GET https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.m… HTTP/2.0
+     << HTTP/2.0 200 OK 30.8k
+127.0.0.1:40930: GET https://kit.fontawesome.com/4d9e38479d.css HTTP/2.0
+     << HTTP/2.0 200 OK 151b
+[16:04:06.747][127.0.0.1:41086] client connect
+[16:04:06.747][127.0.0.1:41096] client connect
+[16:04:06.748][127.0.0.1:41100] client connect
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 3.4k
+127.0.0.1:40906: GET https://cdn.intellimize.co/snippet/117744763.js HTTP/2.0
+     << HTTP/2.0 200 OK 85.6k
+127.0.0.1:40928: GET https://cdn.jsdelivr.net/npm/visualdx@1/dist/vdx.min.js… HTTP/2.0
+     << HTTP/2.0 200 OK 19.7k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 7.0k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 1020b
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTr… HTTP/2.0
+     << HTTP/2.0 200 OK 18.0k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min… HTTP/2.0
+     << HTTP/2.0 200 OK 28.7k
+127.0.0.1:40928: GET https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.mi… HTTP/2.0
+     << HTTP/2.0 200 OK 43.5k
+[16:04:06.771][127.0.0.1:41072] server connect static.hotjar.com:443 (108.156.144.11:443)
+[16:04:06.771][127.0.0.1:41056] server connect static.hotjar.com:443 (108.156.144.11:443)
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 363b
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/gsap/3.15.0/SplitTex… HTTP/2.0
+     << HTTP/2.0 200 OK 3.6k
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 818b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 698b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 366b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 586b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 133b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 313b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 231b
+[16:04:06.787][127.0.0.1:41106] client connect
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 257b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 829b
+[16:04:06.791][127.0.0.1:41100] server connect ka-p.fontawesome.com:443 (172.64.147.188:443)
+[16:04:06.792][127.0.0.1:41086] server connect ka-p.fontawesome.com:443 (172.64.147.188:443)
+[16:04:06.793][127.0.0.1:41096] server connect ka-p.fontawesome.com:443 (172.64.147.188:443)
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 77.6k
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 184b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 331b
+[16:04:06.810][127.0.0.1:41056] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for static.hotjar.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.812][127.0.0.1:41056] client disconnect
+[16:04:06.813][127.0.0.1:41056] server disconnect static.hotjar.com:443 (108.156.144.11:443)
+[16:04:06.816][127.0.0.1:41038] server connect proxy-translator.app.crowdin.net:443 (54.174.140.62:443)
+[16:04:06.836][127.0.0.1:41096] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for ka-p.fontawesome.com, this may indicate that the client does not trust the proxy's certificate.
+[16:04:06.839][127.0.0.1:41096] client disconnect
+[16:04:06.839][127.0.0.1:41096] server disconnect ka-p.fontawesome.com:443 (172.64.147.188:443)
+[16:04:06.839][127.0.0.1:41076] server connect www.clarity.ms:443 (57.155.120.218:443)
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 597b
+127.0.0.1:41072: GET https://static.hotjar.com/c/hotjar-3665149.js?sv=6 HTTP/2.0
+     << HTTP/2.0 200 OK 5.7k
+127.0.0.1:41072: GET https://static.hotjar.com/c/hotjar-6440858.js?sv=6 HTTP/2.0
+     << HTTP/2.0 200 OK 5.6k
+[16:04:06.851][127.0.0.1:41086] client disconnect
+[16:04:06.851][127.0.0.1:41086] server disconnect ka-p.fontawesome.com:443 (172.64.147.188:443)
+[16:04:06.852][127.0.0.1:41116] client connect
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 318b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 99b
+127.0.0.1:40916: GET https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dis… HTTP/2.0
+     << HTTP/2.0 200 OK 624b
+[16:04:06.887][127.0.0.1:41116] server connect script.hotjar.com:443 (3.170.229.106:443)
+127.0.0.1:41100: GET https://ka-p.fontawesome.com/releases/v7.2.0/css/pro-v4… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:41100: GET https://ka-p.fontawesome.com/releases/v7.2.0/css/pro-v4… HTTP/2.0
+     << HTTP/2.0 200 OK 4.0k
+127.0.0.1:41100: GET https://ka-p.fontawesome.com/assets/4d9e38479d/7509846/… HTTP/2.0
+     << HTTP/2.0 200 OK 43.5k
+[16:04:06.914][127.0.0.1:41106] server connect api.intellimize.co:443 (15.135.36.86:443)
+[16:04:06.917][127.0.0.1:41126] client connect
+[16:04:06.921][127.0.0.1:41138] client connect
+[16:04:06.923][127.0.0.1:41144] client connect
+[16:04:06.952][127.0.0.1:41144] server connect rive.app:443 (13.35.163.39:443)
+[16:04:06.953][127.0.0.1:41138] server connect rive.app:443 (13.35.163.39:443)
+[16:04:06.954][127.0.0.1:41126] server connect rive.app:443 (13.35.163.39:443)
+[16:04:06.973][127.0.0.1:41044] server connect fnl.wayground.com:443 (52.207.198.144:443)
+[16:04:06.993][127.0.0.1:41154] client connect
+[16:04:06.993][127.0.0.1:41166] client connect
+127.0.0.1:41116: GET https://script.hotjar.com/modules.c3d712579ef0b1b5af2a.… HTTP/2.0
+     << HTTP/2.0 200 OK 55.9k
+[16:04:07.000][127.0.0.1:41126] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for rive.app, this may indicate that the client does not trust the proxy's certificate.
+[16:04:07.003][127.0.0.1:41138] client disconnect
+[16:04:07.004][127.0.0.1:41138] server disconnect rive.app:443 (13.35.163.39:443)
+[16:04:07.005][127.0.0.1:41126] client disconnect
+[16:04:07.006][127.0.0.1:41126] server disconnect rive.app:443 (13.35.163.39:443)
+[16:04:07.034][127.0.0.1:41154] server connect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:07.038][127.0.0.1:41166] server connect ka-p.fontawesome.com:443 (172.64.147.188:443)
+127.0.0.1:41144: GET https://rive.app/s/nqGV8E8O7ESkpC107PNyTw/embed?runtime… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+127.0.0.1:41144: GET https://rive.app/s/lORBuysPe0ip1cSR5uNWEQ/embed?runtime… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+127.0.0.1:41144: GET https://rive.app/s/nVpnErhzEUGMHmG7BOj5UQ/embed?runtime… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+[16:04:07.049][127.0.0.1:41178] client connect
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 6.0k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68482acf5652ffeb581a… HTTP/2.0
+     << HTTP/2.0 200 OK 11.0k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68482acf5652ffeb581a… HTTP/2.0
+     << HTTP/2.0 200 OK 17.4k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68482acf5652ffeb581a… HTTP/2.0
+     << HTTP/2.0 200 OK 11.9k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 5.5k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 5.6k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 6.1k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 4.6k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 5.2k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 8.9k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 6.0k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 2.4k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 547b
+[16:04:07.083][127.0.0.1:41178] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+127.0.0.1:41154: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 1018b
+127.0.0.1:41166: GET https://ka-p.fontawesome.com/releases/v7.2.0/webfonts/p… HTTP/2.0
+     << HTTP/2.0 200 OK 17.8k
+127.0.0.1:41166: GET https://ka-p.fontawesome.com/releases/v7.2.0/webfonts/p… HTTP/2.0
+     << HTTP/2.0 200 OK 10.0k
+127.0.0.1:41166: GET https://ka-p.fontawesome.com/releases/v7.2.0/webfonts/p… HTTP/2.0
+     << HTTP/2.0 200 OK 9.3k
+127.0.0.1:41154: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 86.5k
+127.0.0.1:41166: GET https://ka-p.fontawesome.com/releases/v7.2.0/webfonts/p… HTTP/2.0
+     << HTTP/2.0 200 OK 9.0k
+127.0.0.1:41154: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 1018b
+127.0.0.1:41166: GET https://ka-p.fontawesome.com/releases/v7.2.0/webfonts/p… HTTP/2.0
+     << HTTP/2.0 200 OK 37.3k
+127.0.0.1:41178: GET https://cdn.jsdelivr.net/npm/@rive-app/webgl2@2.x.x/riv… HTTP/2.0
+     << HTTP/2.0 200 OK 74.1k
+[16:04:07.222][127.0.0.1:41190] client connect
+127.0.0.1:41178: GET https://cdn.jsdelivr.net/npm/@rive-app/webgl2@2.x.x/riv… HTTP/2.0
+     << HTTP/2.0 200 OK 74.1k
+[16:04:07.251][127.0.0.1:41190] server connect unpkg.com:443 (104.18.0.22:443)
+127.0.0.1:41178: GET https://cdn.jsdelivr.net/npm/@rive-app/webgl2@2.x.x/riv… HTTP/2.0
+     << HTTP/2.0 200 OK 74.1k
+127.0.0.1:41076: GET https://www.clarity.ms/tag/u4fa4jr00v
+              << 200 OK 707b
+[16:04:07.303][127.0.0.1:41192] client connect
+127.0.0.1:41106: POST https://api.intellimize.co/context-v2/117744763 HTTP/2.0
+     << HTTP/2.0 200 OK 283b
+[16:04:07.430][127.0.0.1:41192] server connect scripts.clarity.ms:443 (150.171.110.98:443)
+127.0.0.1:41106: POST https://api.intellimize.co/prediction/117744763 HTTP/2.0
+     << HTTP/2.0 200 OK 87b
+[16:04:07.455][127.0.0.1:41208] client connect
+[16:04:07.456][127.0.0.1:41218] client connect
+127.0.0.1:41044: OPTIONS https://fnl.wayground.com/_anserverv2/main/api/v1/webfl… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:41192: GET https://scripts.clarity.ms/0.8.65/clarity.js HTTP/2.0
+     << HTTP/2.0 200 OK 24.7k
+[16:04:07.653][127.0.0.1:41218] server connect log.intellimize.co:443 (54.188.18.198:443)
+[16:04:07.654][127.0.0.1:41208] server connect log.intellimize.co:443 (54.188.18.198:443)
+[16:04:07.698][127.0.0.1:41226] client connect
+127.0.0.1:41044: POST https://fnl.wayground.com/_anserverv2/main/api/v1/webfl… HTTP/2.0
+     << HTTP/2.0 200 OK 79b
+127.0.0.1:41038: GET https://proxy-translator.app.crowdin.net/assets/proxy-t…
+              << 200 OK 47.1k
+127.0.0.1:41190: GET https://unpkg.com/@rive-app/webgl2@2.38.0/rive.wasm HTTP/2.0
+     << HTTP/2.0 200 OK 795k
+[16:04:07.822][127.0.0.1:41236] client connect
+[16:04:07.843][127.0.0.1:41252] client connect
+[16:04:07.857][127.0.0.1:41208] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for log.intellimize.co, this may indicate that the client does not trust the proxy's certificate.
+[16:04:07.860][127.0.0.1:41208] client disconnect
+[16:04:07.862][127.0.0.1:41208] server disconnect log.intellimize.co:443 (54.188.18.198:443)
+[16:04:07.907][127.0.0.1:41254] client connect
+[16:04:07.912][127.0.0.1:41266] client connect
+127.0.0.1:41190: GET https://unpkg.com/@rive-app/webgl2@2.38.0/rive.wasm HTTP/2.0
+ << stream reset by client (CANCEL)
+[16:04:07.913][127.0.0.1:41268] client connect
+[16:04:07.943][127.0.0.1:41266] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:07.944][127.0.0.1:41268] server connect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:07.959][127.0.0.1:41272] client connect
+[16:04:07.972][127.0.0.1:41280] client connect
+[16:04:07.979][127.0.0.1:41226] server connect t.clarity.ms:443 (20.80.37.232:443)
+[16:04:07.990][127.0.0.1:41272] server connect content-autofill.googleapis.com:443 (216.239.38.223:443)
+[16:04:07.999][127.0.0.1:41280] server connect accounts.google.com:443 (172.217.194.84:443)
+127.0.0.1:41154: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 1018b
+[16:04:08.053][127.0.0.1:41254] server connect public.rive.app:443 (13.33.88.75:443)
+127.0.0.1:41218: POST https://log.intellimize.co/logger HTTP/2.0
+     << HTTP/2.0 200 OK 23b
+[16:04:08.062][127.0.0.1:41236] server connect t.clarity.ms:443 (20.80.37.232:443)
+127.0.0.1:41218: POST https://log.intellimize.co/logger HTTP/2.0
+     << HTTP/2.0 200 OK 23b
+[16:04:08.088][127.0.0.1:41252] server connect proxy-translator.app.crowdin.net:443 (54.174.140.62:443)
+127.0.0.1:40884: GET https://wayground.com/_meta/ab HTTP/2.0
+     << HTTP/2.0 200 OK 515b
+127.0.0.1:41280: GET https://accounts.google.com/gsi/client HTTP/2.0
+     << HTTP/2.0 200 OK 95.5k
+[16:04:08.148][127.0.0.1:41282] client connect
+[16:04:08.149][127.0.0.1:41286] client connect
+[16:04:08.150][127.0.0.1:41268] client disconnect
+[16:04:08.150][127.0.0.1:41268] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:08.177][127.0.0.1:41286] server connect accounts.google.com:443 (172.217.194.84:443)
+[16:04:08.178][127.0.0.1:41282] server connect google.com:443 (142.250.4.100:443)
+[16:04:08.179][127.0.0.1:41292] client connect
+[16:04:08.180][127.0.0.1:41266] client disconnect
+[16:04:08.181][127.0.0.1:41266] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+127.0.0.1:41280: GET https://accounts.google.com/gsi/style HTTP/2.0
+     << HTTP/2.0 200 OK 360b
+[16:04:08.208][127.0.0.1:41038] client disconnect
+[16:04:08.209][127.0.0.1:41302] client connect
+[16:04:08.209][127.0.0.1:41038] server disconnect proxy-translator.app.crowdin.net:443 (54.174.140.62:443)
+127.0.0.1:41272: GET https://content-autofill.googleapis.com/v1/pages/ChRDaH… HTTP/2.0
+     << HTTP/2.0 200 OK 36b
+127.0.0.1:41282: GET https://google.com/.well-known/web-identity HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 244b
+[16:04:08.255][127.0.0.1:41254] client disconnect
+[16:04:08.255][127.0.0.1:41316] client connect
+[16:04:08.255][127.0.0.1:41254] server disconnect public.rive.app:443 (13.33.88.75:443)
+127.0.0.1:40940: GET https://cdn.prod.website-files.com/68355113496452bf0578… HTTP/2.0
+     << HTTP/2.0 200 OK 712b
+127.0.0.1:41286: GET https://accounts.google.com/gsi/fedcm.json HTTP/2.0
+     << HTTP/2.0 200 OK 372b
+[16:04:08.271][127.0.0.1:41302] server connect c.clarity.ms:443 (150.171.110.98:443)
+[16:04:08.285][127.0.0.1:41316] server connect www.google.com:443 (142.251.153.119:443)
+127.0.0.1:41316: GET https://www.google.com/.well-known/web-identity HTTP/2.0
+     << HTTP/2.0 200 OK 107b
+127.0.0.1:41044: POST https://fnl.wayground.com/_anserverv2/main/api/v1/webfl… HTTP/2.0
+     << HTTP/2.0 200 OK 79b
+[16:04:08.374][127.0.0.1:41322] client connect
+[16:04:08.374][127.0.0.1:41076] client disconnect
+[16:04:08.375][127.0.0.1:41076] server disconnect www.clarity.ms:443 (57.155.120.218:443)
+[16:04:08.409][127.0.0.1:41322] server connect accounts.google.com:443 (172.217.194.84:443)
+127.0.0.1:41272: GET https://content-autofill.googleapis.com/v1/pages/ChRDaH… HTTP/2.0
+     << HTTP/2.0 200 OK 36b
+[16:04:08.422][127.0.0.1:41292] server connect t.clarity.ms:443 (20.80.37.232:443)
+127.0.0.1:41302: GET https://c.clarity.ms/c.gif HTTP/2.0
+     << HTTP/2.0 302 Found 0b
+[16:04:08.479][127.0.0.1:40892] client disconnect
+[16:04:08.479][127.0.0.1:41324] client connect
+[16:04:08.479][127.0.0.1:40892] server disconnect www.google.com:443 (142.251.153.119:443)
+[16:04:08.481][127.0.0.1:40916] client disconnect
+[16:04:08.482][127.0.0.1:40916] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:08.483][127.0.0.1:40884] client disconnect
+[16:04:08.483][127.0.0.1:41218] client disconnect
+[16:04:08.483][127.0.0.1:41116] client disconnect
+[16:04:08.483][127.0.0.1:41106] client disconnect
+[16:04:08.483][127.0.0.1:41044] client disconnect
+[16:04:08.483][127.0.0.1:41100] client disconnect
+[16:04:08.483][127.0.0.1:40940] client disconnect
+[16:04:08.484][127.0.0.1:40930] client disconnect
+[16:04:08.484][127.0.0.1:40906] client disconnect
+[16:04:08.484][127.0.0.1:40912] client disconnect
+[16:04:08.484][127.0.0.1:40932] client disconnect
+[16:04:08.484][127.0.0.1:40928] client disconnect
+[16:04:08.484][127.0.0.1:41072] client disconnect
+[16:04:08.484][127.0.0.1:41178] client disconnect
+[16:04:08.484][127.0.0.1:41316] client disconnect
+[16:04:08.484][127.0.0.1:41154] client disconnect
+[16:04:08.485][127.0.0.1:41302] client disconnect
+[16:04:08.486][127.0.0.1:40884] server disconnect wayground.com:443 (65.8.76.123:443)
+[16:04:08.486][127.0.0.1:41218] server disconnect log.intellimize.co:443 (54.188.18.198:443)
+[16:04:08.486][127.0.0.1:41116] server disconnect script.hotjar.com:443 (3.170.229.106:443)
+[16:04:08.487][127.0.0.1:41106] server disconnect api.intellimize.co:443 (15.135.36.86:443)
+[16:04:08.487][127.0.0.1:41044] server disconnect fnl.wayground.com:443 (52.207.198.144:443)
+[16:04:08.487][127.0.0.1:41100] server disconnect ka-p.fontawesome.com:443 (172.64.147.188:443)
+[16:04:08.487][127.0.0.1:40940] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:08.488][127.0.0.1:40930] server disconnect kit.fontawesome.com:443 (104.18.40.68:443)
+[16:04:08.488][127.0.0.1:40906] server disconnect cdn.intellimize.co:443 (151.101.2.132:443)
+[16:04:08.488][127.0.0.1:40912] server disconnect cf.quizizz.com:443 (13.35.202.26:443)
+[16:04:08.488][127.0.0.1:40932] server disconnect d3e54v103j8qbb.cloudfront.net:443 (99.86.23.37:443)
+[16:04:08.489][127.0.0.1:40928] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:08.489][127.0.0.1:41072] server disconnect static.hotjar.com:443 (108.156.144.11:443)
+[16:04:08.489][127.0.0.1:41178] server disconnect cdn.jsdelivr.net:443 (151.101.193.229:443)
+[16:04:08.489][127.0.0.1:41316] server disconnect www.google.com:443 (142.251.153.119:443)
+[16:04:08.489][127.0.0.1:41154] server disconnect cdn.prod.website-files.com:443 (104.18.161.117:443)
+[16:04:08.490][127.0.0.1:41302] server disconnect c.clarity.ms:443 (150.171.110.98:443)
+[16:04:08.490][127.0.0.1:41192] client disconnect
+[16:04:08.490][127.0.0.1:41166] client disconnect
+[16:04:08.490][127.0.0.1:41190] client disconnect
+[16:04:08.490][127.0.0.1:41144] client disconnect
+[16:04:08.490][127.0.0.1:41280] client disconnect
+[16:04:08.490][127.0.0.1:41286] client disconnect
+[16:04:08.490][127.0.0.1:41272] client disconnect
+[16:04:08.490][127.0.0.1:41282] client disconnect
+[16:04:08.492][127.0.0.1:41192] server disconnect scripts.clarity.ms:443 (150.171.110.98:443)
+[16:04:08.492][127.0.0.1:41166] server disconnect ka-p.fontawesome.com:443 (172.64.147.188:443)
+[16:04:08.492][127.0.0.1:41190] server disconnect unpkg.com:443 (104.18.0.22:443)
+[16:04:08.493][127.0.0.1:41144] server disconnect rive.app:443 (13.35.163.39:443)
+[16:04:08.493][127.0.0.1:41280] server disconnect accounts.google.com:443 (172.217.194.84:443)
+[16:04:08.493][127.0.0.1:41286] server disconnect accounts.google.com:443 (172.217.194.84:443)
+[16:04:08.493][127.0.0.1:41272] server disconnect content-autofill.googleapis.com:443 (216.239.38.223:443)
+[16:04:08.493][127.0.0.1:41282] server disconnect google.com:443 (142.250.4.100:443)
+127.0.0.1:41322: GET https://accounts.google.com/gsi/fedcm/listaccounts HTTP/2.0
+     << HTTP/2.0 200 OK 41b
+[16:04:08.573][127.0.0.1:41324] server connect c.bing.com:443 (150.171.27.10:443)
+127.0.0.1:41252: POST https://proxy-translator.app.crowdin.net/api/variables
+              << 200 OK 30b
+127.0.0.1:41324: GET https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=9A0D814268FF…
+              << 302 Redirect 0b
+[16:04:08.743][127.0.0.1:41334] client connect
+[16:04:08.777][127.0.0.1:41334] server connect c.clarity.ms:443 (150.171.110.98:443)
+127.0.0.1:41292: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+127.0.0.1:41226: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+127.0.0.1:41334: GET https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=9A0D814268… HTTP/2.0
+     << HTTP/2.0 200 OK 42b
+127.0.0.1:41236: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+127.0.0.1:41236: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+[16:04:10.518][127.0.0.1:41336] client connect
+[16:04:10.586][127.0.0.1:41336] server connect android.clients.google.com:443 (172.217.194.138:443)
+127.0.0.1:41336: POST https://android.clients.google.com/checkin HTTP/2.0
+     << HTTP/2.0 200 OK 476b
+[16:04:10.720][127.0.0.1:41350] client connect
+[16:04:10.755][127.0.0.1:41350] server connect mtalk.google.com:5228 (74.125.200.188:5228)
+127.0.0.1:41336: POST https://android.clients.google.com/c2dm/register3 HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 45b
+127.0.0.1:41350 -> tcp -> mtalk.google.com:5228
+127.0.0.1:41336: POST https://android.clients.google.com/c2dm/register3 HTTP/2.0
+     << HTTP/2.0 200 OK 50b
+127.0.0.1:41350 <- tcp <- mtalk.google.com:5228
+127.0.0.1:41350 <- tcp <- mtalk.google.com:5228
+127.0.0.1:41236: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+127.0.0.1:41336: POST https://android.clients.google.com/c2dm/register3 HTTP/2.0
+     << HTTP/2.0 200 OK 151b
+127.0.0.1:41236: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+[16:04:16.828][127.0.0.1:53530] client connect
+[16:04:17.127][127.0.0.1:53530] server connect fnl.wayground.com:443 (52.207.198.144:443)
+127.0.0.1:53530: OPTIONS https://fnl.wayground.com/_anserverv2/main/api/v1/other… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:53530: POST https://fnl.wayground.com/_anserverv2/main/api/v1/other… HTTP/2.0
+     << HTTP/2.0 200 OK 79b
+[16:04:21.429][127.0.0.1:53532] client connect
+[16:04:21.434][127.0.0.1:53540] client connect
+[16:04:21.474][127.0.0.1:53532] server connect wayground.com:443 (65.8.76.123:443)
+[16:04:21.645][127.0.0.1:53540] server connect log.intellimize.co:443 (54.188.18.198:443)
+127.0.0.1:53532: GET https://wayground.com/join?gc=135984 HTTP/2.0
+     << HTTP/2.0 200 OK 4.6k
+[16:04:21.792][127.0.0.1:53546] client connect
+[16:04:21.797][127.0.0.1:53548] client connect
+[16:04:21.821][127.0.0.1:53546] server connect cf.quizizz.com:443 (13.35.202.3:443)
+[16:04:21.825][127.0.0.1:53548] server connect www.google.com:443 (142.251.153.119:443)
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/vendo… HTTP/2.0
+     << HTTP/2.0 200 OK 5.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/katex… HTTP/2.0
+     << HTTP/2.0 200 OK 2.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/float… HTTP/2.0
+     << HTTP/2.0 200 OK 792b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/index… HTTP/2.0
+     << HTTP/2.0 200 OK 74.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/index.… HTTP/2.0
+     << HTTP/2.0 200 OK 197k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/katex.… HTTP/2.0
+     << HTTP/2.0 200 OK 75.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/shared… HTTP/2.0
+     << HTTP/2.0 200 OK 15.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/floati… HTTP/2.0
+     << HTTP/2.0 200 OK 14.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/i18nex… HTTP/2.0
+     << HTTP/2.0 200 OK 13.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/lodash… HTTP/2.0
+     << HTTP/2.0 200 OK 13.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/lodash… HTTP/2.0
+     << HTTP/2.0 200 OK 14.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/tiny-e… HTTP/2.0
+     << HTTP/2.0 200 OK 577b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/sentry… HTTP/2.0
+     << HTTP/2.0 200 OK 77.7k
+127.0.0.1:41236: POST https://t.clarity.ms/collect
+              << 204 No Content 0b
+127.0.0.1:53540: POST https://log.intellimize.co/logger HTTP/2.0
+     << HTTP/2.0 200 OK 23b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/vendor… HTTP/2.0
+     << HTTP/2.0 200 OK 560k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/crypto… HTTP/2.0
+     << HTTP/2.0 200 OK 6.2k
+[16:04:22.310][127.0.0.1:53558] client connect
+[16:04:22.339][127.0.0.1:53558] server connect cf.quizizz.com:443 (13.35.202.3:443)
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:53532: GET https://wayground.com/_render/main/config/geo-data HTTP/2.0
+     << HTTP/2.0 200 OK 90b
+127.0.0.1:53532: GET https://wayground.com/_api/main/user?subscriptionData=t… HTTP/2.0
+     << HTTP/2.0 401 Unauthorized 17b
+127.0.0.1:53546: GET https://cf.quizizz.com/translationsV2/join/en.json HTTP/2.0
+     << HTTP/2.0 200 OK 47.3k
+[16:04:22.647][127.0.0.1:53566] client connect
+[16:04:22.713][127.0.0.1:53582] client connect
+[16:04:22.716][127.0.0.1:53592] client connect
+[16:04:22.742][127.0.0.1:53582] server connect www.googletagmanager.com:443 (142.250.4.97:443)
+[16:04:22.744][127.0.0.1:53606] client connect
+[16:04:22.747][127.0.0.1:53622] client connect
+[16:04:22.749][127.0.0.1:53592] server connect fonts.googleapis.com:443 (172.253.118.95:443)
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/lottie… HTTP/2.0
+     << HTTP/2.0 200 OK 70.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/RootBo… HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/RootB… HTTP/2.0
+     << HTTP/2.0 200 OK 4.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useGam… HTTP/2.0
+     << HTTP/2.0 200 OK 3.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/preGam… HTTP/2.0
+     << HTTP/2.0 200 OK 12.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/caStor… HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/consta… HTTP/2.0
+     << HTTP/2.0 200 OK 797b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useUpd… HTTP/2.0
+     << HTTP/2.0 200 OK 722b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Nickna… HTTP/2.0
+     << HTTP/2.0 200 OK 2.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useSea… HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+[16:04:22.815][127.0.0.1:53566] server connect o984659.ingest.sentry.io:443 (34.160.81.0:443)
+127.0.0.1:53592: GET https://fonts.googleapis.com/css2?family=Quicksand:wght… HTTP/2.0
+     << HTTP/2.0 200 OK 526b
+[16:04:22.841][127.0.0.1:53626] client connect
+127.0.0.1:53546: GET https://cf.quizizz.com/img/wayground/loaders/Loader_Mag… HTTP/2.0
+     << HTTP/2.0 200 OK 1.3k
+[16:04:22.869][127.0.0.1:53626] server connect fonts.googleapis.com:443 (172.253.118.95:443)
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:53582: GET https://www.googletagmanager.com/gtag/js?id=G-NYFWYHHSP… HTTP/2.0
+     << HTTP/2.0 200 OK 181k
+[16:04:22.935][127.0.0.1:53638] client connect
+[16:04:22.963][127.0.0.1:53638] server connect content-autofill.googleapis.com:443 (216.239.36.223:443)
+127.0.0.1:53626: GET https://fonts.googleapis.com/css2?family=Quicksand:wght… HTTP/2.0
+     << HTTP/2.0 200 OK 526b
+[16:04:22.989][127.0.0.1:53622] server connect fnl.wayground.com:443 (52.207.198.144:443)
+[16:04:22.993][127.0.0.1:53650] client connect
+[16:04:23.010][127.0.0.1:53606] server connect quizizz-static.s3.us-east-1.amazonaws.com:443 (54.231.230.106:443)
+127.0.0.1:53532: GET https://wayground.com/play-api/check HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+[16:04:23.022][127.0.0.1:53650] server connect fonts.gstatic.com:443 (172.253.118.94:443)
+127.0.0.1:53532: GET https://wayground.com/_featserverv2/main/features HTTP/2.0
+     << HTTP/2.0 200 OK 6.2k
+127.0.0.1:53532: POST https://wayground.com/_uasserver/main/v2/user-avatar/us… HTTP/2.0
+     << HTTP/2.0 200 OK 937b
+127.0.0.1:53638: GET https://content-autofill.googleapis.com/v1/pages/ChRDaH… HTTP/2.0
+     << HTTP/2.0 200 OK 36b
+127.0.0.1:53650: GET https://fonts.gstatic.com/s/quicksand/v37/6xKtdSZaM9iE8… HTTP/2.0
+     << HTTP/2.0 200 OK 27.6k
+[16:04:23.239] [AUTO-DROP] Intercepted frontend telemetry. URL: https://fnl.wayground.com/_anserverv2/main/api/v1/frontend
+127.0.0.1:53622: POST https://fnl.wayground.com/_anserverv2/main/api/v1/front… HTTP/2.0
+ << Connection killed.
+127.0.0.1:53532: POST https://wayground.com/play-api/v5/checkRoom HTTP/2.0
+     << HTTP/2.0 200 OK 3.3k
+127.0.0.1:53606: GET https://quizizz-static.s3.us-east-1.amazonaws.com/Black…
+              << 200 OK 4b
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:53532: GET https://wayground.com/_gameapi/main/public/v1/students/… HTTP/2.0
+     << HTTP/2.0 200 OK 952b
+[16:04:23.727] [AUTO-DROP] Intercepted frontend telemetry. URL: https://fnl.wayground.com/_anserverv2/main/api/v1/frontend
+127.0.0.1:53622: POST https://fnl.wayground.com/_anserverv2/main/api/v1/front… HTTP/2.0
+ << Connection killed.
+[16:04:23.728][127.0.0.1:53656] client connect
+[16:04:24.003][127.0.0.1:53656] server connect socket.wayground.com:443 (32.198.189.51:443)
+[16:04:24.049][127.0.0.1:53540] server disconnect log.intellimize.co:443 (54.188.18.198:443)
+127.0.0.1:53656: GET https://socket.wayground.com/_gsocket/main/?experiment=…
+              << 101 Switching Protocols 0b
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53656 -> WebSocket text message -> socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Toolt… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/FontA… HTTP/2.0
+     << HTTP/2.0 200 OK 376b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Toggl… HTTP/2.0
+     << HTTP/2.0 200 OK 397b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Annot… HTTP/2.0
+     << HTTP/2.0 200 OK 465b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 459b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 143b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/index… HTTP/2.0
+     << HTTP/2.0 200 OK 394b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/ZoomW… HTTP/2.0
+     << HTTP/2.0 200 OK 3.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Butto… HTTP/2.0
+     << HTTP/2.0 200 OK 631b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/QLoad… HTTP/2.0
+     << HTTP/2.0 200 OK 879b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Modal… HTTP/2.0
+     << HTTP/2.0 200 OK 681b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 206b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 123b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Carou… HTTP/2.0
+     << HTTP/2.0 200 OK 412b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Toggl… HTTP/2.0
+     << HTTP/2.0 200 OK 465b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/PreGa… HTTP/2.0
+     << HTTP/2.0 200 OK 3.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Avata… HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/PreGa… HTTP/2.0
+     << HTTP/2.0 200 OK 2.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/PreGam… HTTP/2.0
+     << HTTP/2.0 200 OK 20.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/ZoomWr… HTTP/2.0
+     << HTTP/2.0 200 OK 29.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useGam… HTTP/2.0
+     << HTTP/2.0 200 OK 3.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/auraPr… HTTP/2.0
+     << HTTP/2.0 200 OK 692b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Button… HTTP/2.0
+     << HTTP/2.0 200 OK 6.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Headin… HTTP/2.0
+     << HTTP/2.0 200 OK 910b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useCAG… HTTP/2.0
+     << HTTP/2.0 200 OK 807b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Toolti… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useFoc… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useScr… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/FontAc… HTTP/2.0
+     << HTTP/2.0 200 OK 1019b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Grid.v… HTTP/2.0
+     << HTTP/2.0 200 OK 933b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Trunca… HTTP/2.0
+     << HTTP/2.0 200 OK 800b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Toolti… HTTP/2.0
+     << HTTP/2.0 200 OK 5.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Telepo… HTTP/2.0
+     << HTTP/2.0 200 OK 535b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useHig… HTTP/2.0
+     << HTTP/2.0 200 OK 669b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Popove… HTTP/2.0
+     << HTTP/2.0 200 OK 2.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Telepo… HTTP/2.0
+     << HTTP/2.0 200 OK 535b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Waygro… HTTP/2.0
+     << HTTP/2.0 200 OK 722b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/QCoin.… HTTP/2.0
+     << HTTP/2.0 200 OK 2.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Annota… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Toggle… HTTP/2.0
+     << HTTP/2.0 200 OK 593b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useCom… HTTP/2.0
+     << HTTP/2.0 200 OK 1016b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/rive-a… HTTP/2.0
+     << HTTP/2.0 200 OK 25.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Perfor… HTTP/2.0
+     << HTTP/2.0 200 OK 486b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/TeamsC… HTTP/2.0
+     << HTTP/2.0 200 OK 762b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/ThemeC… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/ThemeI… HTTP/2.0
+     << HTTP/2.0 200 OK 864b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/index.… HTTP/2.0
+     << HTTP/2.0 200 OK 5.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/_plugi… HTTP/2.0
+     << HTTP/2.0 200 OK 433b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/gsap.B… HTTP/2.0
+     << HTTP/2.0 200 OK 26.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useZoo… HTTP/2.0
+     << HTTP/2.0 200 OK 856b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Button… HTTP/2.0
+     << HTTP/2.0 200 OK 2.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/QLoade… HTTP/2.0
+     << HTTP/2.0 200 OK 858b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Chrome… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Modal.… HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/LDBErr… HTTP/2.0
+     << HTTP/2.0 200 OK 1.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Themed… HTTP/2.0
+     << HTTP/2.0 200 OK 617b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Assess… HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Featur… HTTP/2.0
+     << HTTP/2.0 200 OK 966b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Themed… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/LobbyV… HTTP/2.0
+     << HTTP/2.0 200 OK 4.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/lr-tes… HTTP/2.0
+     << HTTP/2.0 200 OK 719b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/hotjar… HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Carous… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Toggle… HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Visual… HTTP/2.0
+     << HTTP/2.0 200 OK 542b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/PreGam… HTTP/2.0
+     << HTTP/2.0 200 OK 16.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/TextIn… HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/PreGam… HTTP/2.0
+     << HTTP/2.0 200 OK 1.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useAnt… HTTP/2.0
+     << HTTP/2.0 200 OK 2.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useIma… HTTP/2.0
+     << HTTP/2.0 200 OK 465b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Avatar… HTTP/2.0
+     << HTTP/2.0 200 OK 1.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Avatar… HTTP/2.0
+     << HTTP/2.0 200 OK 797b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Docume… HTTP/2.0
+     << HTTP/2.0 200 OK 552b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Speech… HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Shadow… HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+[16:04:25.249][127.0.0.1:39002] client connect
+[16:04:25.252][127.0.0.1:39016] client connect
+[16:04:25.252][127.0.0.1:39022] client connect
+[16:04:25.266][127.0.0.1:39026] client connect
+[16:04:25.278][127.0.0.1:39002] server connect www.google.com:443 (142.251.153.119:443)
+[16:04:25.279][127.0.0.1:39028] client connect
+[16:04:25.280][127.0.0.1:39030] client connect
+[16:04:25.288][127.0.0.1:39016] server connect analytics.google.com:443 (216.239.34.181:443)
+[16:04:25.288][127.0.0.1:39022] server connect stats.g.doubleclick.net:443 (172.253.118.157:443)
+[16:04:25.301][127.0.0.1:39026] server connect analytics.google.com:443 (216.239.34.181:443)
+127.0.0.1:53582: GET https://www.googletagmanager.com/gtag/js?id=UA-11865028… HTTP/2.0
+     << HTTP/2.0 200 OK 118k
+[16:04:25.319][127.0.0.1:39028] server connect analytics.google.com:443 (216.239.34.181:443)
+[16:04:25.328][127.0.0.1:39030] server connect www.google.co.id:443 (142.250.4.94:443)
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/icon.… HTTP/2.0
+     << HTTP/2.0 200 OK 45.9k
+127.0.0.1:53650: GET https://fonts.gstatic.com/s/quicksand/v37/6xKtdSZaM9iE8… HTTP/2.0
+     << HTTP/2.0 200 OK 27.6k
+[16:04:25.352][127.0.0.1:39026] client disconnect
+127.0.0.1:53582: GET https://www.googletagmanager.com/gtag/js?id=G-N10L950FV… HTTP/2.0
+     << HTTP/2.0 200 OK 139k
+[16:04:25.353][127.0.0.1:39026] server disconnect analytics.google.com:443 (216.239.34.181:443)
+[16:04:25.360][127.0.0.1:39028] client disconnect
+[16:04:25.361][127.0.0.1:39028] server disconnect analytics.google.com:443 (216.239.34.181:443)
+127.0.0.1:53558: GET https://cf.quizizz.com/themes/v2/classic/joinClassicWBg… HTTP/2.0
+     << HTTP/2.0 200 OK 100k
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+[16:04:25.367][127.0.0.1:39038] client connect
+127.0.0.1:39002: POST https://www.google.com/measurement/conversion?random=17… HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+127.0.0.1:39022: POST https://stats.g.doubleclick.net/g/collect?v=2&tid=G-NYF… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:53650: GET https://fonts.gstatic.com/s/quicksand/v37/6xKtdSZaM9iE8… HTTP/2.0
+     << HTTP/2.0 200 OK 27.6k
+[16:04:25.397][127.0.0.1:39038] server connect www.google-analytics.com:443 (74.125.130.138:443)
+127.0.0.1:53638: GET https://content-autofill.googleapis.com/v1/pages/ChRDaH… HTTP/2.0
+     << HTTP/2.0 200 OK 36b
+[16:04:25.419][127.0.0.1:39048] client connect
+127.0.0.1:39030: GET https://www.google.co.id/ads/ga-audiences?v=1&t=sr&slf_… HTTP/2.0
+     << HTTP/2.0 200 OK 42b
+[16:04:25.435][127.0.0.1:39048] client disconnect
+[16:04:25.436][127.0.0.1:39048] error establishing server connection: client disconnected
+127.0.0.1:39048: CONNECT www.google-analytics.com:443
+              << 502 Bad Gateway 203b
+127.0.0.1:39038: GET https://www.google-analytics.com/analytics.js HTTP/2.0
+     << HTTP/2.0 200 OK 20.3k
+127.0.0.1:39038: POST https://www.google-analytics.com/g/collect?v=2&tid=G-N1… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:53532: GET https://wayground.com/_gameapi/main/public/v1/memesets?… HTTP/2.0
+     << HTTP/2.0 200 OK 637b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[16:04:27.135] [AUTO-DROP] Intercepted frontend telemetry. URL: https://fnl.wayground.com/_anserverv2/main/api/v1/frontend
+127.0.0.1:53622: POST https://fnl.wayground.com/_anserverv2/main/api/v1/front… HTTP/2.0
+ << Connection killed.
+127.0.0.1:53546: GET https://cf.quizizz.com/img/wayground/loaders/Loader_Whi… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:53532: POST https://wayground.com/play-api/v5/join HTTP/2.0
+     << HTTP/2.0 200 OK 21.6k
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53532: POST https://wayground.com/_uasserver/main/v0/user-avatar/br… HTTP/2.0
+     << HTTP/2.0 200 OK 69b
+127.0.0.1:53532: GET https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+     << HTTP/2.0 200 OK 285b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Float… HTTP/2.0
+     << HTTP/2.0 200 OK 786b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/AuraR… HTTP/2.0
+     << HTTP/2.0 200 OK 386b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 753b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Curre… HTTP/2.0
+     << HTTP/2.0 200 OK 8.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Score… HTTP/2.0
+     << HTTP/2.0 200 OK 302b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Overl… HTTP/2.0
+     << HTTP/2.0 200 OK 146b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/QRead… HTTP/2.0
+     << HTTP/2.0 200 OK 443b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/White… HTTP/2.0
+     << HTTP/2.0 200 OK 859b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/InGame… HTTP/2.0
+     << HTTP/2.0 200 OK 71.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Google… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/InGam… HTTP/2.0
+     << HTTP/2.0 200 OK 11.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Sound.… HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/perfor… HTTP/2.0
+     << HTTP/2.0 200 OK 1.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/howler… HTTP/2.0
+     << HTTP/2.0 200 OK 9.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Flashc… HTTP/2.0
+     << HTTP/2.0 200 OK 810b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useQRo… HTTP/2.0
+     << HTTP/2.0 200 OK 733b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Divide… HTTP/2.0
+     << HTTP/2.0 200 OK 601b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Floati… HTTP/2.0
+     << HTTP/2.0 200 OK 3.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/AuraRe… HTTP/2.0
+     << HTTP/2.0 200 OK 7.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Curren… HTTP/2.0
+     << HTTP/2.0 200 OK 47.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/QuizUt… HTTP/2.0
+     << HTTP/2.0 200 OK 1.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Youtub… HTTP/2.0
+     << HTTP/2.0 200 OK 460b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Themed… HTTP/2.0
+     << HTTP/2.0 200 OK 732b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/fileUp… HTTP/2.0
+     << HTTP/2.0 200 OK 648b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/stt-au… HTTP/2.0
+     << HTTP/2.0 200 OK 790b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Pill.v… HTTP/2.0
+     << HTTP/2.0 200 OK 1.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Score.… HTTP/2.0
+     << HTTP/2.0 200 OK 2.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useCus… HTTP/2.0
+     << HTTP/2.0 200 OK 600b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useGam… HTTP/2.0
+     << HTTP/2.0 200 OK 911b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useNav… HTTP/2.0
+     << HTTP/2.0 200 OK 458b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Overla… HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/useBas… HTTP/2.0
+     << HTTP/2.0 200 OK 624b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Onboar… HTTP/2.0
+     << HTTP/2.0 200 OK 561b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/QReadA… HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Whiteb… HTTP/2.0
+     << HTTP/2.0 200 OK 29.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/marked… HTTP/2.0
+     << HTTP/2.0 200 OK 11.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/MathQu… HTTP/2.0
+     << HTTP/2.0 200 OK 4.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/utils.… HTTP/2.0
+     << HTTP/2.0 200 OK 587b
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/countdown.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 12.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/countdown_end.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 49.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/correct_answer.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 96.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/wrong_answer.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 40.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/achievement1.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 16.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/leaderboard_up.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 19.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/leaderboard_down.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 1.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/whoosh_short.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 16.7k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/Scroll-test.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 5.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/Ping-test.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 32.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/glitch_distortion.mp… HTTP/2.0
+     << HTTP/2.0 200 OK 24.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/mystery_cube_open_po… HTTP/2.0
+     << HTTP/2.0 200 OK 11.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/mystery_cube_open_ne… HTTP/2.0
+     << HTTP/2.0 200 OK 6.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/get_points.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/lose_points.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/sounds/presentation-dashboard/lo… HTTP/2.0
+     << HTTP/2.0 200 OK 7.7k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/misc/redemption_mascot_… HTTP/2.0
+     << HTTP/2.0 200 OK 53.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/sounds/presentation-dashboard/ti… HTTP/2.0
+     << HTTP/2.0 200 OK 118k
+127.0.0.1:53546: GET https://cf.quizizz.com/sounds/presentation-dashboard/ti… HTTP/2.0
+     << HTTP/2.0 200 OK 46.0k
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:53546: GET https://cf.quizizz.com/sounds/presentation-dashboard/ti… HTTP/2.0
+     << HTTP/2.0 200 OK 19.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/startRecording.mp… HTTP/2.0
+     << HTTP/2.0 200 OK 5.1k
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/endRecording.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 5.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/powerup-extra-poi… HTTP/2.0
+     << HTTP/2.0 200 OK 138k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/trombone_looser_s… HTTP/2.0
+     << HTTP/2.0 200 OK 152k
+127.0.0.1:53546: GET https://cf.quizizz.com/game/audio/sfx/exciting_gift.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 115k
+127.0.0.1:53546: GET https://cf.quizizz.com/sounds/live-dashboard/themes/def… HTTP/2.0
+     << HTTP/2.0 200 OK 2.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/avatar_open_mystery_… HTTP/2.0
+     << HTTP/2.0 200 OK 132k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/avatar_final_counter… HTTP/2.0
+     << HTTP/2.0 200 OK 110k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/avatar-every-try-ite… HTTP/2.0
+     << HTTP/2.0 200 OK 12.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/avatar-buy-button-cl… HTTP/2.0
+     << HTTP/2.0 200 OK 101k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/avatar-daily-rewards… HTTP/2.0
+     << HTTP/2.0 200 OK 54.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/avatar-new-item-unlo… HTTP/2.0
+     << HTTP/2.0 200 OK 166k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/match-pair.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 43.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Themed… HTTP/2.0
+     << HTTP/2.0 200 OK 13.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/LiveRe… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/LiveRe… HTTP/2.0
+     << HTTP/2.0 200 OK 583b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/LiveR… HTTP/2.0
+     << HTTP/2.0 200 OK 756b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/LiveRe… HTTP/2.0
+     << HTTP/2.0 200 OK 2.9k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Reacti… HTTP/2.0
+     << HTTP/2.0 200 OK 795b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/React… HTTP/2.0
+     << HTTP/2.0 200 OK 148b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/LiveR… HTTP/2.0
+     << HTTP/2.0 200 OK 590b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Player… HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/QCoinP… HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/QCoin… HTTP/2.0
+     << HTTP/2.0 200 OK 558b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Themed… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 754b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Theme… HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/sounds/correct_answer.mp3 HTTP/2.0
+     << HTTP/2.0 200 OK 96.7k
+127.0.0.1:53532: GET https://wayground.com/_media/avatar-assets/backpack/bl_… HTTP/2.0
+     << HTTP/2.0 200 OK 2.5k
+127.0.0.1:53558: GET https://cf.quizizz.com/image/QbitPencil.svg HTTP/2.0
+     << HTTP/2.0 200 OK 833b
+127.0.0.1:53532: GET https://wayground.com/_media/avatar-assets/headgear/bl_… HTTP/2.0
+     << HTTP/2.0 200 OK 4.7k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/liveReactions/NewBTS-le… HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:53532: GET https://wayground.com/_media/avatar-assets/footwear/g_s… HTTP/2.0
+     << HTTP/2.0 200 OK 5.9k
+127.0.0.1:53532: GET https://wayground.com/_media/avatar-assets/bottomwear/g… HTTP/2.0
+     << HTTP/2.0 200 OK 7.3k
+127.0.0.1:53532: GET https://wayground.com/_media/avatar-assets/topwear/br_b… HTTP/2.0
+     << HTTP/2.0 200 OK 17.7k
+127.0.0.1:53532: GET https://wayground.com/_media/avatar-assets/accessory/ch… HTTP/2.0
+     << HTTP/2.0 200 OK 20.4k
+127.0.0.1:53532: POST https://wayground.com/play-api/awardPowerups HTTP/2.0
+     << HTTP/2.0 200 OK 504b
+127.0.0.1:53546: GET https://cf.quizizz.com/img/wayground/loaders/Loader_Whi… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[16:04:29.525][127.0.0.1:53606] server disconnect quizizz-static.s3.us-east-1.amazonaws.com:443 (54.231.230.106:443)
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:53558: GET https://cf.quizizz.com/image/LobbyDoubleJeopardy.svg HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+127.0.0.1:53558: GET https://cf.quizizz.com/image/LobbyGift.svg HTTP/2.0
+     << HTTP/2.0 200 OK 5.4k
+127.0.0.1:53558: GET https://cf.quizizz.com/image/LobbyStreakBooster.svg HTTP/2.0
+     << HTTP/2.0 200 OK 5.0k
+127.0.0.1:53650: GET https://fonts.gstatic.com/s/quicksand/v37/6xKtdSZaM9iE8… HTTP/2.0
+     << HTTP/2.0 200 OK 27.6k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/DoubleJeopardy… HTTP/2.0
+     << HTTP/2.0 200 OK 3.4k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/2XV2.svg HTTP/2.0
+     << HTTP/2.0 200 OK 9.9k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/FiftyFiftyV2.s… HTTP/2.0
+     << HTTP/2.0 200 OK 8.6k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/EraserV2.svg HTTP/2.0
+     << HTTP/2.0 200 OK 2.8k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/ImmunityV2.svg HTTP/2.0
+     << HTTP/2.0 200 OK 2.7k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/TimeFreezeV2.s… HTTP/2.0
+     << HTTP/2.0 200 OK 6.8k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/PowerPlayV2.sv… HTTP/2.0
+     << HTTP/2.0 200 OK 3.5k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/SuperSonicV2.s… HTTP/2.0
+     << HTTP/2.0 200 OK 4.5k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/StreakSaverV2.… HTTP/2.0
+     << HTTP/2.0 200 OK 3.7k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/GlitchV2.svg HTTP/2.0
+     << HTTP/2.0 200 OK 3.1k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/mysteryBoxes/i… HTTP/2.0
+     << HTTP/2.0 200 OK 6.2k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/mysteryBoxes/i… HTTP/2.0
+     << HTTP/2.0 200 OK 6.6k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/mysteryBoxes/i… HTTP/2.0
+     << HTTP/2.0 200 OK 6.1k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/lg/mystery-box… HTTP/2.0
+     << HTTP/2.0 200 OK 20.4k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/lg/add-points.… HTTP/2.0
+     << HTTP/2.0 200 OK 13.0k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/lg/minus-point… HTTP/2.0
+     << HTTP/2.0 200 OK 18.1k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/StreakBoosterV… HTTP/2.0
+     << HTTP/2.0 200 OK 5.6k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/lg/streak-brea… HTTP/2.0
+     << HTTP/2.0 200 OK 22.5k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/temp/steal-poi… HTTP/2.0
+     << HTTP/2.0 200 OK 460k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/GiftV2.svg HTTP/2.0
+     << HTTP/2.0 200 OK 5.7k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/temp/send-pran… HTTP/2.0
+     << HTTP/2.0 200 OK 186k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/powerup-banner… HTTP/2.0
+     << HTTP/2.0 200 OK 49.5k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/powerup-onboar… HTTP/2.0
+     << HTTP/2.0 200 OK 8.7k
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Count… HTTP/2.0
+     << HTTP/2.0 200 OK 437b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Countd… HTTP/2.0
+     << HTTP/2.0 200 OK 3.4k
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:39038: POST https://www.google-analytics.com/g/collect?v=2&tid=G-N1… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[16:04:37.993][127.0.0.1:43990] client connect
+[16:04:38.022][127.0.0.1:43990] server connect static.hotjar.com:443 (108.156.144.11:443)
+[16:04:38.033][127.0.0.1:44004] client connect
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Questi… HTTP/2.0
+     << HTTP/2.0 200 OK 15.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Backgr… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Backg… HTTP/2.0
+     << HTTP/2.0 200 OK 835b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/TypedO… HTTP/2.0
+     << HTTP/2.0 200 OK 13.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Custom… HTTP/2.0
+     << HTTP/2.0 200 OK 7.1k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/FileUp… HTTP/2.0
+     << HTTP/2.0 200 OK 1.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Custo… HTTP/2.0
+     << HTTP/2.0 200 OK 2.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Typed… HTTP/2.0
+     << HTTP/2.0 200 OK 1.4k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Sticky… HTTP/2.0
+     << HTTP/2.0 200 OK 693b
+[16:04:38.069][127.0.0.1:44004] server connect unpkg.com:443 (104.18.1.22:443)
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Quest… HTTP/2.0
+     << HTTP/2.0 200 OK 2.3k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/css/Power… HTTP/2.0
+     << HTTP/2.0 200 OK 1.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Poweru… HTTP/2.0
+     << HTTP/2.0 200 OK 7.1k
+127.0.0.1:53558: GET https://cf.quizizz.com/Avatar/Trophy/gold_trophy.svg HTTP/2.0
+     << HTTP/2.0 200 OK 6.2k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/Popove… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/ColorU… HTTP/2.0
+     << HTTP/2.0 200 OK 558b
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+     << HTTP/2.0 200 OK 2b
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:53558: GET https://cf.quizizz.com/img/wayground/brand/favicon/favi… HTTP/2.0
+     << HTTP/2.0 200 OK 4.2k
+127.0.0.1:43990: GET https://static.hotjar.com/c/hotjar-3901578.js?sv=6 HTTP/2.0
+     << HTTP/2.0 200 OK 5.8k
+[16:04:38.134][127.0.0.1:44014] client connect
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/GiftV2.svg HTTP/2.0
+     << HTTP/2.0 200 OK 5.7k
+[16:04:38.164][127.0.0.1:44014] server connect script.hotjar.com:443 (3.170.229.106:443)
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/DoubleJeopardy… HTTP/2.0
+     << HTTP/2.0 200 OK 3.4k
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/StreakBoosterV… HTTP/2.0
+     << HTTP/2.0 200 OK 5.6k
+127.0.0.1:44014: GET https://script.hotjar.com/modules.c3d712579ef0b1b5af2a.… HTTP/2.0
+     << HTTP/2.0 200 OK 55.9k
+127.0.0.1:44004: GET https://unpkg.com/@rive-app/canvas@2.8.0/rive.wasm HTTP/2.0
+     << HTTP/2.0 200 OK 304k
+127.0.0.1:53546: GET https://cf.quizizz.com/join/img/gameplay-leaderboard/st… HTTP/2.0
+     << HTTP/2.0 200 OK 56.8k
+127.0.0.1:53546: GET https://cf.quizizz.com/Avatar/defaultExpressionFinal.ri… HTTP/2.0
+     << HTTP/2.0 200 OK 14.2k
+127.0.0.1:41336: POST https://android.clients.google.com/c2dm/register3 HTTP/2.0
+     << HTTP/2.0 200 OK 151b
+[16:04:39.082][127.0.0.1:41292] server disconnect t.clarity.ms:443 (20.80.37.232:443)
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:41336: POST https://android.clients.google.com/c2dm/register3 HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 45b
+127.0.0.1:53558: GET https://cf.quizizz.com/image/DisabledDoubleJeopardy.svg HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:53532: POST https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+     << HTTP/2.0 200 OK 543b
+127.0.0.1:53546: GET https://cf.quizizz.com/app-bundle/join/upload/js/ScoreC… HTTP/2.0
+     << HTTP/2.0 200 OK 810b
+[16:04:41.320][127.0.0.1:41226] server disconnect t.clarity.ms:443 (20.80.37.232:443)
+127.0.0.1:39038: POST https://www.google-analytics.com/g/collect?v=2&tid=G-N1… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[16:04:43.267] [AUTO-DROP] Intercepted frontend telemetry. URL: https://fnl.wayground.com/_anserverv2/main/api/v1/frontend
+127.0.0.1:53622: POST https://fnl.wayground.com/_anserverv2/main/api/v1/front… HTTP/2.0
+ << Connection killed.
+[16:04:50.445][127.0.0.1:41236] server disconnect t.clarity.ms:443 (20.80.37.232:443)
+[16:04:56.649][127.0.0.1:53548] server disconnect www.google.com:443 (142.251.153.119:443)
+[16:04:56.678][127.0.0.1:53548] server connect www.google.com:443 (142.251.157.119:443)
+127.0.0.1:53548: GET https://www.google.com/search?q=halo&oq=halo&gs_lcrp=Eg… HTTP/2.0
+     << HTTP/2.0 200 OK 44.3k
+127.0.0.1:53548: GET https://www.google.com/search?q=halo&oq=halo&gs_lcrp=Eg… HTTP/2.0
+     << HTTP/2.0 302 Found 533b
+127.0.0.1:53548: GET https://www.google.com/sorry/index?continue=https://www… HTTP/2.0
+     << HTTP/2.0 429 Too Many Requests 3.6k
+127.0.0.1:53548: GET https://www.google.com/recaptcha/enterprise.js HTTP/2.0
+     << HTTP/2.0 200 OK 1019b
+[16:04:57.545][127.0.0.1:37768] client connect
+[16:04:57.576][127.0.0.1:37768] server connect www.gstatic.com:443 (142.250.4.94:443)
+127.0.0.1:37768: GET https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7… HTTP/2.0
+     << HTTP/2.0 200 OK 374k
+127.0.0.1:53548: GET https://www.google.com/recaptcha/enterprise/anchor?ar=1… HTTP/2.0
+     << HTTP/2.0 200 OK 27.9k
+[16:04:57.931][127.0.0.1:37770] client connect
+[16:04:57.959][127.0.0.1:37770] server connect www.gstatic.com:443 (142.250.4.94:443)
+[16:04:57.969][127.0.0.1:37776] client connect
+[16:04:57.999][127.0.0.1:37776] server connect content-autofill.googleapis.com:443 (216.239.36.223:443)
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7… HTTP/2.0
+     << HTTP/2.0 200 OK 41.4k
+127.0.0.1:37776: GET https://content-autofill.googleapis.com/v1/pages/ChRDaH… HTTP/2.0
+     << HTTP/2.0 200 OK 36b
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7… HTTP/2.0
+     << HTTP/2.0 200 OK 374k
+[16:04:58.269][127.0.0.1:41324] client disconnect
+[16:04:58.270][127.0.0.1:37790] client connect
+[16:04:58.270][127.0.0.1:41324] server disconnect c.bing.com:443 (150.171.27.10:443)
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/api2/logo_48.png HTTP/2.0
+     << HTTP/2.0 200 OK 2.2k
+127.0.0.1:53548: GET https://www.google.com/recaptcha/enterprise/webworker.j… HTTP/2.0
+     << HTTP/2.0 200 OK 117b
+[16:04:58.301][127.0.0.1:37790] server connect fonts.gstatic.com:443 (74.125.200.94:443)
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7… HTTP/2.0
+     << HTTP/2.0 200 OK 374k
+127.0.0.1:37790: GET https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME… HTTP/2.0
+     << HTTP/2.0 200 OK 39.2k
+127.0.0.1:53548: GET https://www.google.com/favicon.ico HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:53548: GET https://www.google.com/recaptcha/enterprise/bframe?hl=e… HTTP/2.0
+     << HTTP/2.0 200 OK 2.2k
+127.0.0.1:53656 <- WebSocket text message <- socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53656 -> WebSocket text message -> socket.wayground.com:443/_gsocket/main/?experiment=authRevamp&x-quizizz-uid=3d66c299-5e4f-4cda-a12c-3f1277c4f673&EIO=4&transport=websocket
+127.0.0.1:53548: POST https://www.google.com/recaptcha/enterprise/reload?k=6L… HTTP/2.0
+     << HTTP/2.0 200 OK 3.8k
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/api2/refresh_2x.png HTTP/2.0
+     << HTTP/2.0 200 OK 600b
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/api2/audio_2x.png HTTP/2.0
+     << HTTP/2.0 200 OK 530b
+127.0.0.1:37770: GET https://www.gstatic.com/recaptcha/api2/info_2x.png HTTP/2.0
+     << HTTP/2.0 200 OK 665b
+127.0.0.1:53548: GET https://www.google.com/recaptcha/enterprise/payload?p=0… HTTP/2.0
+     << HTTP/2.0 200 OK 50.4k
+127.0.0.1:53548: POST https://www.google.com/recaptcha/enterprise/userverify?… HTTP/2.0
+     << HTTP/2.0 200 OK 6.5k
+127.0.0.1:53548: GET https://www.google.com/recaptcha/enterprise/payload?p=0… HTTP/2.0
+     << HTTP/2.0 200 OK 45.3k
+127.0.0.1:53558: GET https://cf.quizizz.com/image/DisabledDoubleJeopardy.svg HTTP/2.0
+     << HTTP/2.0 200 OK 3.2k
+127.0.0.1:53532: POST https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+     << HTTP/2.0 200 OK 545b
+[16:05:09.755] [AUTO-DROP] Intercepted frontend telemetry. URL: https://fnl.wayground.com/_anserverv2/main/api/v1/frontend
+127.0.0.1:53622: POST https://fnl.wayground.com/_anserverv2/main/api/v1/front… HTTP/2.0
+ << Connection killed.
+127.0.0.1:53558: GET https://cf.quizizz.com/game/img/powerups/DoubleJeopardy… HTTP/2.0
+     << HTTP/2.0 200 OK 3.4k
+[16:05:15.698] [AUTO-DROP] Blocked infraction report! Game ID: 6a2a7a10d30cc0f10f76f136
+127.0.0.1:53532: POST https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+ << Connection killed.
+[16:05:22.053] [AUTO-DROP] Blocked infraction report! Game ID: 6a2a7a10d30cc0f10f76f136
+127.0.0.1:53532: POST https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+ << Connection killed.
+[16:05:23.579][127.0.0.1:41252] server disconnect proxy-translator.app.crowdin.net:443 (54.174.140.62:443)
+127.0.0.1:41336: POST https://android.clients.google.com/c2dm/register3 HTTP/2.0
+     << HTTP/2.0 301 Moved Permanently 45b
+[16:05:24.745] [AUTO-DROP] Blocked infraction report! Game ID: 6a2a7a10d30cc0f10f76f136
+127.0.0.1:53532: POST https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+ << Connection killed.
+[16:05:25.882] [AUTO-DROP] Blocked infraction report! Game ID: 6a2a7a10d30cc0f10f76f136
+127.0.0.1:53532: POST https://wayground.com/_gameapi/main/public/v1/games/6a2… HTTP/2.0
+ << Connection killed.
+WebSocket connection closed by client: 1005 
+[16:05:30.126][127.0.0.1:53656] server disconnect socket.wayground.com:443 (32.198.189.51:443)
+[16:05:30.127][127.0.0.1:53656] client disconnect
+127.0.0.1:39016: POST https://analytics.google.com/g/collect?v=2&tid=G-NYFWYH… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:39030: GET https://www.google.co.id/ads/ga-audiences?v=1&t=sr&slf_… HTTP/2.0
+     << HTTP/2.0 200 OK 42b
+127.0.0.1:39038: POST https://www.google-analytics.com/g/collect?v=2&tid=G-N1… HTTP/2.0
+ << peer closed connection
+127.0.0.1:53566: POST https://o984659.ingest.sentry.io/api/6322987/envelope/?… HTTP/2.0
+ << peer closed connection
+[16:05:30.179][127.0.0.1:53626] client disconnect
+[16:05:30.180][127.0.0.1:53558] client disconnect
+[16:05:30.180][127.0.0.1:53582] client disconnect
+[16:05:30.180][127.0.0.1:44004] client disconnect
+[16:05:30.180][127.0.0.1:53650] client disconnect
+[16:05:30.182][127.0.0.1:53626] server disconnect fonts.googleapis.com:443 (172.253.118.95:443)
+[16:05:30.183][127.0.0.1:53558] server disconnect cf.quizizz.com:443 (13.35.202.3:443)
+[16:05:30.183][127.0.0.1:53582] server disconnect www.googletagmanager.com:443 (142.250.4.97:443)
+[16:05:30.184][127.0.0.1:44004] server disconnect unpkg.com:443 (104.18.1.22:443)
+[16:05:30.184][127.0.0.1:53650] server disconnect fonts.gstatic.com:443 (172.253.118.94:443)
+[16:05:30.184][127.0.0.1:39038] client disconnect
+[16:05:30.184][127.0.0.1:53566] client disconnect
+[16:05:30.184][127.0.0.1:53546] client disconnect
+[16:05:30.185][127.0.0.1:53622] client disconnect
+[16:05:30.185][127.0.0.1:53638] client disconnect
+[16:05:30.185][127.0.0.1:53532] client disconnect
+[16:05:30.185][127.0.0.1:53530] client disconnect
+[16:05:30.185][127.0.0.1:53540] client disconnect
+[16:05:30.187][127.0.0.1:39038] server disconnect www.google-analytics.com:443 (74.125.130.138:443)
+[16:05:30.187][127.0.0.1:53566] server disconnect o984659.ingest.sentry.io:443 (34.160.81.0:443)
+[16:05:30.187][127.0.0.1:53546] server disconnect cf.quizizz.com:443 (13.35.202.3:443)
+[16:05:30.187][127.0.0.1:53622] server disconnect fnl.wayground.com:443 (52.207.198.144:443)
+[16:05:30.188][127.0.0.1:53638] server disconnect content-autofill.googleapis.com:443 (216.239.36.223:443)
+[16:05:30.188][127.0.0.1:53532] server disconnect wayground.com:443 (65.8.76.123:443)
+[16:05:30.188][127.0.0.1:53530] server disconnect fnl.wayground.com:443 (52.207.198.144:443)
+[16:05:30.188][127.0.0.1:41334] client disconnect
+[16:05:30.189][127.0.0.1:41322] client disconnect
+[16:05:30.189][127.0.0.1:39022] client disconnect
+[16:05:30.189][127.0.0.1:37776] client disconnect
+[16:05:30.189][127.0.0.1:53592] client disconnect
+[16:05:30.189][127.0.0.1:39016] client disconnect
+[16:05:30.189][127.0.0.1:37770] client disconnect
+[16:05:30.189][127.0.0.1:39002] client disconnect
+[16:05:30.190][127.0.0.1:37768] client disconnect
+[16:05:30.190][127.0.0.1:37790] client disconnect
+[16:05:30.190][127.0.0.1:41350] server disconnect mtalk.google.com:5228 (74.125.200.188:5228)
+[16:05:30.192][127.0.0.1:41334] server disconnect c.clarity.ms:443 (150.171.110.98:443)
+[16:05:30.192][127.0.0.1:41322] server disconnect accounts.google.com:443 (172.217.194.84:443)
+[16:05:30.192][127.0.0.1:39022] server disconnect stats.g.doubleclick.net:443 (172.253.118.157:443)
+[16:05:30.193][127.0.0.1:37776] server disconnect content-autofill.googleapis.com:443 (216.239.36.223:443)
+[16:05:30.193][127.0.0.1:53592] server disconnect fonts.googleapis.com:443 (172.253.118.95:443)
+[16:05:30.193][127.0.0.1:39030] client disconnect
+[16:05:30.193][127.0.0.1:39016] server disconnect analytics.google.com:443 (216.239.34.181:443)
+[16:05:30.194][127.0.0.1:37770] server disconnect www.gstatic.com:443 (142.250.4.94:443)
+[16:05:30.194][127.0.0.1:39002] server disconnect www.google.com:443 (142.251.153.119:443)
+[16:05:30.194][127.0.0.1:37768] server disconnect www.gstatic.com:443 (142.250.4.94:443)
+[16:05:30.194][127.0.0.1:37790] server disconnect fonts.gstatic.com:443 (74.125.200.94:443)
+[16:05:30.195][127.0.0.1:53548] client disconnect
+[16:05:30.195][127.0.0.1:44014] client disconnect
+[16:05:30.195][127.0.0.1:43990] client disconnect
+[16:05:30.195][127.0.0.1:41252] client disconnect
+[16:05:30.195][127.0.0.1:53606] client disconnect
+[16:05:30.196][127.0.0.1:41292] client disconnect
+[16:05:30.196][127.0.0.1:41226] client disconnect
+[16:05:30.196][127.0.0.1:41236] client disconnect
+[16:05:30.197][127.0.0.1:40900] client disconnect
+[16:05:30.199][127.0.0.1:39030] server disconnect www.google.co.id:443 (142.250.4.94:443)
+[16:05:30.199][127.0.0.1:53548] server disconnect www.google.com:443 (142.251.157.119:443)
+[16:05:30.200][127.0.0.1:44014] server disconnect script.hotjar.com:443 (3.170.229.106:443)
+[16:05:30.200][127.0.0.1:43990] server disconnect static.hotjar.com:443 (108.156.144.11:443)
+[16:05:30.200][127.0.0.1:40900] server disconnect www.google.com:443 (142.251.153.119:443)
+[16:05:30.201][127.0.0.1:41336] client disconnect
+[16:05:30.202][127.0.0.1:41350] client disconnect
+[16:05:30.202][127.0.0.1:41336] server disconnect android.clients.google.com:443 (172.217.194.138:443)
