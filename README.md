@@ -25,7 +25,7 @@ The system operates by integrating two isolated components:
 2. **The Phantom Client (Playwright):** A fully isolated, locally bundled Chromium instance. This browser is forced to route all its web traffic through the Interceptor and ignore SSL certificate errors (Certificate Pinning evasion), ensuring 100% clear traffic observability without polluting the host's primary browser state.
 
 ## Installation & Usage
-Download & Install Python from the official website and run the script.
+Download & Install Python from the official website and run the script. Open and Do Quizz with browser from script
 
 ### Linux & MacOS
 ```bash
